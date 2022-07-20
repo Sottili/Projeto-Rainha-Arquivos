@@ -1,0 +1,23 @@
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../img/hamb-item.png);
+    height: 35px;
+    width: 35px;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #fff!important;
+}
+
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    width: 0.5em;
+    height: 0.5em;
+    border-right: 0.2em solid white;
+    border-top: 0.2em solid white;
+    border-left: 0;
+    transform: rotate(133deg);
+}
