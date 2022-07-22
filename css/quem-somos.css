@@ -1,46 +1,9 @@
-/* variaveis de cor */
-
-:root {
-  --green: rgb(69, 255, 36);
-
-  --green-sub: rgb(8, 158, 28);
-
-  --red: rgb(255, 47, 47);
-
-  --red-sub: rgb(172, 38, 38);
-
-  --cian: rgb(23, 145, 167);
-}
-
-.green {
-  color: var(--green);
-}
-
-.green-sub {
-  color: var(--green-sub);
-}
-
-.red {
-  color: var(--red);
-}
-
-.red-sub {
-  color: var(--red-sub);
-}
-
-.cian {
-  color: var(--cian);
-}
-
-.bold {
-  font-weight: 500;
-}
-
 /* geral */
 
 html,
 body {
   font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
 }
 
 @media (min-width: 768px) {
@@ -353,10 +316,11 @@ body {
   margin-bottom: 30px;
 }
 
-/* footer */
+/*  footer  */
 
 .footer {
   height: 200px;
+  background-color: #3c2a46;
 }
 
 .container-footer {
@@ -371,8 +335,6 @@ body {
   background-color: #3c2a46;
 
   padding: 20px 0;
-
-  height: 100%;
 }
 
 /* left col */
@@ -447,6 +409,35 @@ body {
   font-size: 14px;
 
   max-width: 300px;
+}
+
+/* scroll top */
+#scroll {
+  position: fixed;
+
+  background-color: #251b2a;
+
+  width: 40px;
+
+  height: 40px;
+
+  border-radius: 10px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  bottom: 100px;
+
+  right: 30px;
+}
+
+#scroll img {
+  width: 40px;
+
+  height: 40px;
 }
 
 /* mobile */
@@ -647,5 +638,13 @@ body {
 @media (min-device-width: 600px) and (max-device-width: 767px) {
   .container-footer {
     margin-top: 40px;
+  }
+}
+
+/* scroll */
+
+@media (max-width: 900px) {
+  #scroll {
+    right: 0;
   }
 }
