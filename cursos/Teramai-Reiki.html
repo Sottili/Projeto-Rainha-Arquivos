@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Bootstrap css and js-->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+      defer
+    ></script>
+
+    <!--Fonte-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--CSS-->
+
+    <link rel="stylesheet" href="../css/cursos-paginas.css" />
+
+    <!--Custom Bootstrap-->
+
+    <link rel="stylesheet" href="css/custom-bootstrap.css" />
+
+    <!--Favicon-->
+
+    <link rel="shortcut icon" href="../img/favicon.ico" />
+
+    <!--JS-->
+
+    <script src="../main.js" defer></script>
+
+    <title>Teramai Reiki - Rainha da Antiga Religião</title>
+  </head>
+
+  <body>
+    <!--Navbar-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+      <div class="container-fluid" id="topo">
+        <a class="navbar-brand" href="../index.html"
+          ><img src="../img/logo_rainha.png" alt=""
+        /></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="items">
+            <li class="nav-item px-2" id="problem">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
+                >Inicio</a
+              >
+            </li>
+
+            <li class="nav-item px-2" id="problem">
+              <a class="nav-link" href="../quem-somos.html">Quem Somos</a>
+            </li>
+
+            <li class="nav-item px-2 dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarScrollingDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Artigos
+              </a>
+
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarScrollingDropdown"
+                id="dropbar"
+              >
+                <li class="nav-item">
+                  <a
+                    class="dropdown-item nav-link"
+                    href="../importancia-da-dieta.html"
+                    >Importância da Dieta</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item px-2" id="problem">
+              <a class="nav-link" href="../agenda.html">Agenda</a>
+            </li>
+
+            <li class="nav-item dropdown px-2" id="problem">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Cursos Online
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li class="nav-item dropdown drop-down02">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Nossos Cursos
+                  </a>
+
+                  <ul
+                    class="dropdown-menu sub-menu02"
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <li class="nav-item dropdown drop-down02">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Terapêuticos
+                      </a>
+
+                      <ul
+                        class="dropdown-menu sub-menu02"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <li>
+                          <a class="dropdown-item" href="#">Terapêuticos 1</a>
+                        </li>
+
+                        <li>
+                          <a class="dropdown-item" href="#">Terapêuticos 2</a>
+                        </li>
+
+                        <li>
+                          <a class="dropdown-item" href="#">Terapêuticos 3</a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="nav-item dropdown drop-down02">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Magias
+                      </a>
+
+                      <ul
+                        class="dropdown-menu sub-menu02"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <li><a class="dropdown-item" href="#">Magias 1</a></li>
+
+                        <li><a class="dropdown-item" href="#">Magias 2</a></li>
+
+                        <li><a class="dropdown-item" href="#">Magias 3</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="nav-item dropdown drop-down02">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Oráculos
+                      </a>
+
+                      <ul
+                        class="dropdown-menu sub-menu02"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <li>
+                          <a class="dropdown-item" href="#">Oráculos 1</a>
+                        </li>
+
+                        <li>
+                          <a class="dropdown-item" href="#">Oráculos 2</a>
+                        </li>
+
+                        <li>
+                          <a class="dropdown-item" href="#">Oráculos 3</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown px-2" id="problem">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Cursos Presenciais
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li class="nav-item dropdown drop-down02">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Nossos Cursos
+                  </a>
+
+                  <ul
+                    class="dropdown-menu sub-menu02"
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <li class="nav-item dropdown drop-down02">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Terapêuticos
+                      </a>
+
+                      <ul
+                        class="dropdown-menu sub-menu02"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <li>
+                          <a class="dropdown-item" href="#">Terapêuticos 1</a>
+                        </li>
+
+                        <li>
+                          <a class="dropdown-item" href="#">Terapêuticos 2</a>
+                        </li>
+
+                        <li>
+                          <a class="dropdown-item" href="#">Terapêuticos 3</a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="nav-item dropdown drop-down02">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Reiki
+                      </a>
+
+                      <ul
+                        class="dropdown-menu sub-menu02"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <li><a class="dropdown-item" href="#">Reiki 1</a></li>
+
+                        <li><a class="dropdown-item" href="#">Reiki 2</a></li>
+
+                        <li><a class="dropdown-item" href="#">Reiki 3</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="nav-item dropdown drop-down02">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Magias
+                      </a>
+
+                      <ul
+                        class="dropdown-menu sub-menu02"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <li><a class="dropdown-item" href="#">Magias 1</a></li>
+
+                        <li><a class="dropdown-item" href="#">Magias 2</a></li>
+
+                        <li><a class="dropdown-item" href="#">Magias 3</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="nav-item dropdown drop-down02">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Oráculos
+                      </a>
+
+                      <ul
+                        class="dropdown-menu sub-menu02"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <li>
+                          <a class="dropdown-item" href="#">Oráculos 1</a>
+                        </li>
+
+                        <li>
+                          <a class="dropdown-item" href="#">Oráculos 2</a>
+                        </li>
+
+                        <li>
+                          <a class="dropdown-item" href="#">Oráculos 3</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item-px-2" id="problem">
+              <a
+                class="nav-item nav-link"
+                href="https://drive.google.com/drive/folders/1k3L4Jr2Xc6HnfCtB0Wi-pWqFaiJJKF-8?usp=sharing"
+                >Albúm de fotos</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Main-->
+
+    <main class="main">
+      <div class="container">
+        <h1 class="col-12 text-center" id="title-top5">Teramai Reiki</h1>
+
+        <div class="row">
+          <div class="container-left" id="img-usui">
+            <img
+              src="../img-cursos/img-cursos-maiores/4-218x300.jpg"
+              alt="Mestra Rowena Healing Rainha Da Antiga Religião"
+            />
+
+            <p class="text-top">
+              O Tera mai e Tera mai Seichem é um sistema de cura que associa e
+              unifica a energia utilizada por Xamãs hawaianos (kahunas) e por
+              eles denominadas “Seichem”, com as energias das freqüências mais
+              elevadas dos quatro elementos (terra, água, fogo e ar).
+            </p>
+
+            <p class="text">
+              O Teramai Seichem foi introduzido nos EUA por Kathleen Milner
+              desde 1992. Através de canalizações e contatos com alguns dos
+              Mestres Ascensos, Confederação Galáctica e os Anjos dos da Eterna
+              Luz, Kathleen foi guiada a unificar seus conhecimentos de Seichem
+              (já havia sido iniciada como Mestre em Seichem) juntamente com as
+              energias nas quais foi iniciada pelos próprios seres de Luz
+              (Sakara, Sophiel e Angeliclight).
+            </p>
+
+            <p class="text">
+              SAKARA é fogo, a energia de oitavas superiores do fogo utilizada
+              para cura. A energia curativa de Sakara trabalha na aura, o campo
+              eletromagnético que cerca o corpo. Uma das propriedades básicas do
+              fogo é transformação / transmutação. Sakara queima, transmuta e
+              liberta bloqueios e resistências nos níveis físico, etérico,
+              emocional, mental e espiritual.
+            </p>
+
+            <p class="text">
+              A iniciação na freqüência de Sakara possibilita uma aceleração dos
+              elétrons dos átomos de nosso corpo, possibilitando uma
+              amplificação do potencial geral inerente a cada um.ANGELICLIGHT é
+              um raio de cura de duas vertentes: o elemento ar/ energia mental e
+              energia diretamente do Reino Angélico. SOPHIEL é a energia de
+              oitavas superiores da água. A energia de Sophiel penetra
+              profundamente no corpo astral/emocional possibilitando acessar o
+              núcleo de qualquer perturbação a nível emocional. TERA-MAI é a
+              manifestação da energia do elemento terra em suas oitavas
+              superiores. É uma energia de aterramento e grownding, que auxilia
+              em curas específicas de corpo físico e questões ligadas mais à
+              terceira dimensão.
+            </p>
+
+            <p class="text">
+              O Tera mai Seichem trabalha com todos os quatro raios curativos
+              elementares e símbolos sagrados do Xamanismo Hawaiano que auxiliam
+              a alcançar estas freqüências específicas.
+            </p>
+          </div>
+
+          <aside class="navbar-right container-right">
+            <h5
+              class="text-muted text-center"
+              id="cursos-title"
+              style="font-size: 14px"
+            >
+              NESTA SEÇÃO
+            </h5>
+
+            <ul class="cursos-items">
+              <li class="list-items-active" id="first-item-cursos">Cursos</li>
+
+              <li class="list-items-primary">
+                <a href="Reiki-Usui-Tibetano.html">Reiki Usui Tibetano</a>
+              </li>
+
+              <li class="list-items">
+                <a href="Mestra-Rowena-Healing.html">Mestra Rowena Healing</a>
+              </li>
+
+              <li class="list-items">
+                <a href="El-Morya-Healing.html">El Morya Healing</a>
+              </li>
+
+              <li class="list-items">
+                <a href="Djwall-Khul-Cosmo-Ascencional.html"
+                  >Djwall Khul Cosmo Ascensional</a
+                >
+              </li>
+
+              <li class="list-items">
+                <a href="Teramai-Reiki.html">Teramai Reiki</a>
+              </li>
+
+              <li class="list-items">
+                <a href="Seichim-Seikhem–All-love.html"
+                  >Seichim Seikhem – All love</a
+                >
+              </li>
+
+              <li class="list-items">
+                <a href="Ra-Sheeba-Reiki.html">Ra-Sheeba Reiki</a>
+              </li>
+
+              <li class="list-items">
+                <a href="Reiki-De-Luxor.html">Reiki de Luxor</a>
+              </li>
+
+              <li class="list-items">
+                <a href="Shamballa-MultiDimensional.html"
+                  >Shamballa Multidimencional</a
+                >
+              </li>
+
+              <li class="list-items">
+                <a href="Reiki-Xamanico-Amadeus.html"
+                  >Reiki Xamânico – Amadeus</a
+                >
+              </li>
+
+              <li class="list-items">
+                <a href="Reiki-Druida.html">Reiki Druida</a>
+              </li>
+
+              <li class="list-items">
+                <a href="Reiki-Celta.html">Reiki Celta</a>
+              </li>
+
+              <li class="list-items">
+                <a href="Dragon-Reiki.html">Dragon Reiki</a>
+              </li>
+
+              <li class="list-items">
+                <a href="Reiki-Avalon-Excalibur.html">Reiki Avalon Excalibur</a>
+              </li>
+
+              <li class="list-items">
+                <a href="Reiki-Elemental.html">Reiki Elemental</a>
+              </li>
+
+              <li class="list-items">
+                <a href="Magnified-Healing.html">Magnified Healing ®</a>
+              </li>
+
+              <li class="list-items">
+                <a href="Karuna-Ki.html">Karuna Ki ®</a>
+              </li>
+
+              <li class="list-items">
+                <a href="Huna-Reiki.html">Huna Reiki</a>
+              </li>
+
+              <li class="list-items">
+                <a href="Ho'oponopono.html">Curso de Ho’oponopono</a>
+              </li>
+
+              <li class="list-items">
+                <a href="Reiki-Cristão.html">Reiki Cristão – IAD AOUR RIPUI</a>
+              </li>
+
+              <li class="list-items">
+                <a href="Reiki-Tibetano.html">Reiki Tibetano</a>
+              </li>
+
+              <li class="list-items">
+                <a href="Cristais-Etericos-Quanticos.html"
+                  >Cristais Etéricos Quântico</a
+                >
+              </li>
+
+              <li class="list-items">
+                <a href="Kundalini-Tantra-Reiki.html">Kundalini Tantra Reiki</a>
+              </li>
+
+              <li class="list-items">
+                <a href="Dolphin-Reiki.html"
+                  >Dolphin Reiki – Reiki dos Golfinhos</a
+                >
+              </li>
+
+              <li class="list-items">
+                <a href="Iniciação-Yod.html">Iniciação Yod</a>
+              </li>
+
+              <li class="list-items">
+                <a href="Iniciacao-Sagrada-Aos-Sete-Raios-Cosmicos.html"
+                  >Iniciação Sagrada aos Sete Raios Cósmicos</a
+                >
+              </li>
+
+              <li class="list-items">
+                <a href="Iniciação-A-Espada-de-Arcanjo-Miguel.html"
+                  >Iniciação à Espada de Arcanjo Miguel</a
+                >
+              </li>
+
+              <li class="list-items">
+                <a href="Iniciação-A-Sagrada-Chama-Violeta.html"
+                  >Iniciação à Sagrada Chama Violeta</a
+                >
+              </li>
+
+              <li class="list-items">
+                <a href="Iniciação-A-Ordem-de-Melchizedek.html"
+                  >Iniciação à Ordem de Melchizedek</a
+                >
+              </li>
+
+              <li class="list-items">
+                <a href="Iniciação-Celestial-A-Lorde-Ganesha.html"
+                  >Iniciação Celestial à Lorde Ganesha</a
+                >
+              </li>
+
+              <li class="list-items">
+                <a href="Sacerdócio-A-Ordem-De-Melchizedek.html"
+                  >Sacerdócio à Ordem de Melchizedek
+                </a>
+              </li>
+
+              <li class="list-items">
+                <a href="Iniciação-A-Maha-Lakshmi.html"
+                  >Iniciação à Maha Lakshmi</a
+                >
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </main>
+
+    <!--Footer-->
+
+    <footer class="footer">
+      <div class="container-footer">
+        <div class="col-left">
+          <h5 class="footer-title text-center">Endereço</h5>
+
+          <p class="text-footer">
+            Rua São Sabino, 323 – Chácara Belenzinho – São Paulo / SP
+          </p>
+
+          <p class="text-footer">
+            Estamos localizados próximos da Estação Belém e Estação Tatuapé.
+          </p>
+        </div>
+
+        <div class="col-mid">
+          <h5 class="footer-title text-center">Contato</h5>
+
+          <div class="body-col">
+            <p class="text-email">
+              Email: contato@rainhadaantigareligiao.com.br
+            </p>
+
+            <p class="footer-subtitle">Contato Dirigente</p>
+
+            <div class="divider-area-footer"></div>
+
+            <p class="text-footer">(11) 94039-1538 – Glória Frighetto</p>
+          </div>
+        </div>
+
+        <div class="col-right">
+          <h4 class="text-center copyright-footer">
+            Rainha da Antiga Religião – Todos os direitos reservados –
+            &copy;2022
+          </h4>
+
+          <p class="cnpj">CNPJ: 24.737.059/0001-25</p>
+        </div>
+      </div>
+    </footer>
+
+    <!--Scroll to Top-->
+
+    <div id="scroll">
+      <a href="#topo" id="scroll-top"
+        ><img src="../img/up_arrow.png" alt="Voltar ao topo"
+      /></a>
+    </div>
+  </body>
+</html>
